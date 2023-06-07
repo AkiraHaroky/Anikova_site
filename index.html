@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<header>
+<!-- Бургер-меню -->
+    <nav>
+        <div class="navbar">
+            <div class="container1 nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <img class="logo" src="img/Logo.png">
+                </div>
+                <div class="menu-items">
+                    <li><a href="#section">Home</a></li>
+                    <li><a href="#four">Shop</a></li>
+                    <li><a href="#container-btn">Pricing</a></li>
+                    <li><a href="#blo">Log in</a></li>
+                    <li><a href="#men">Register</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body class ="bc">
+    
+    <section id="section" class="section">
+        <div class="">
+            <h2 id="zaglav" class="h2">Choose Your Best<img id="Yoga" src="img/Yoga.png">Teacher</h2>
+            <p id="text1"class="p">There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+            <button id="but1" class="button button_color" onclick="document.getElementById('myModal').style.display='block'">Get started ㅤ<img src="img/Strelka.png"></button>        </div>
+        <img id="girl" src="img/girl.png">
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <h2></h2>
+            </div>
+            <div class="modal-body">
+                <div class="Sign-Up">
+                <h1>
+                    Sign Up
+                </h1>
+                <p>ㅤ</p>
+                <p>
+                    <hr>
+                    Hi! Register or log in to your account to enroll in our yoga courses or watch video lessons
+                    <hr>
+                    <p>ㅤ</p>
+                </p>
+                <form>
+                    <div class="input">
+                    <input required="" type="text" /><i class="far fa-user"></i><label>Full Name</label>
+                    </div>
+                    <div class="input">
+                    <input required="" type="text" /><i class="fas fa-at"></i><label>Email</label>
+                    </div>
+                    <div class="input">
+                    <input required="" type="password" /><i class="fas fa-unlock-alt"></i><label>Enter Password</label>
+                    </div>
+                </form>
+                <button class="start">Start Saving</button><button class="google"><i class="fab fa-google"></i>&nbsp;&nbsp;Sign up with Google</button>
+                <h2>
+                    Already have an account? <a href="#">Sign In</a>
+                </h2>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h3>Thank You!</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно -->
+
+    <div class="plus">
+        <img id="thre" src="img/threpl.png">
+        <img id="four" src="img/fourpl.png">
+    </div>
+    <section class="section">
+        <div class="girlyoga">
+            <img id="four" src="img/girlyoga.png">
+            <p id="text2"class="p">Get targeted influencers list in your niche at your fingertips so you can focus on running your.</p>
+            <img id="next" src="img/Next.png">
+        </div>
+    </section>
+
+    <!--Табы-->
+    <div class="projects-tab" id="projests">
+        <div class="projects-tab__tabs-container">
+            <div id="container-btn" class="container-btn">
+                <div class="change-content-btn">
+                    <p class="change-content-btn__number">01</p>
+                    <p class="change-content-btn__text hide">Hatha Yoga</p>
+                </div>
+                <div class="change-content-btn">
+                    <p class="change-content-btn__number">02</p>
+                    <p class="change-content-btn__text hide">Ashtanga-Vinyasa Yoga</p>
+                </div>
+                <div class="change-content-btn">
+                    <p class="change-content-btn__number">03</p>
+                    <p class="change-content-btn__text hide">Iyengar Yoga</p>
+                </div>
+            </div>
+            <div class="content-container  ">
+
+                <div class="content-container__text-block">
+                    <h1 class="text-block__headline">Hatha Yoga</h1>
+                    <p class="text-block__paragraf">the direction of yoga, which since ancient times combines
+                        its first stages:
+                        the ethical and moral aspects of Yama and Niyama, Asanas, Pranayamas, as well as the cleansing techniques of Shatkarm.
+                    </p>
+                    <button type="button" class="text-block__button">Read more</button>
+                </div>
+            </div>
+            <div class="content-container content-hide">
+
+                <div class="content-container__text-block">
+                    <h1 class="text-block__headline">Ashtanga-Vinyasa Yoga</h1>
+                    <p class="text-block__paragraf">a kind of hatha yoga, which is a dynamic practice in which asana sequences pass
+                         into one another through vinyasa (sequences of movements accompanied by breathing),
+                         bandhi (energy locks), drishti (concentration of the gaze on different areas of the body).
+                    </p>
+                    <button type="button" class="text-block__button">Read more</button>
+                </div>
+            </div>
+            <div class="content-container content-hide">
+
+                <div class="content-container__text-block">
+                    <h1 class="text-block__headline">Iyengar Yoga</h1>
+                    <p class="text-block__paragraf">A characteristic feature of this direction is the detailed detailed
+                         construction of the body in asanas with various auxiliary materials - props in the form
+                        of bricks, belts, rollers, blankets, etc., also a special place is given to safety.
+                         Each asana is performed for a long time and the transition to the next asana is slow and smooth.
+                    </p>
+                    <button type="button" class="text-block__button">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="menyoga">
+            <div id="blo" class="block">
+                <h2 id="mentext" class="h2">Anytime, any place, any workout</h2>
+                <p id="text1"class="p">There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                <button id="but1" class="button button_color">Let’s Start ㅤ<img src="img/Strelka.png"></button>
+            </div>
+            <img id="menn" src="img/twogirl.png">
+        </div>
+    </section>
+
+    <!--  Слайдер  -->
+    <section id="slidersec" class="section">
+        <div class="slider-sec" id="reviews">
+
+            <div class="slider-sec__main-text">
+                <h1 class="main-text__headline">Reviews from Our Clients</h1>
+                <div class="main-text__sub-block">
+                    <div class="sub-block__line"></div>
+                    <p>OUR CLIENT SAYS</p>
+                </div>
+            </div>
+
+            <div class="slider__main-sec active">
+                <div class="main-sec__text">
+                    <p class="text__name">Taylor Jay</p>
+                    <p class="text__job">Ashtanga-Vinyasa Yoga</p>
+                    <p class="text__review">“I took yoga courses and was very satisfied.
+                         I liked the way the teacher explained the techniques and exercises,
+                         and I felt a significant improvement in my physical and emotional state.”</p>
+                </div>
+            </div>
+            <div class="slider__main-sec">
+                <div class="main-sec__text">
+                    <p class="text__name">Marva Flores</p>
+                    <p class="text__job">Iyengar Yoga</p>
+                    <p class="text__review">“I took yoga courses and was pleasantly surprised by the results.
+                         I have become more flexible, my health and well-being have noticeably improved.
+                         I will continue to practice yoga and recommend these courses to anyone who is looking for a way to improve their health.”</p>
+                </div>
+            </div>
+            <div class="slider__main-sec ">
+                <div class="main-sec__text">
+                    <p class="text__name">Diane Pennebaker</p>
+                    <p class="text__job">Hatha Yoga</p>
+                    <p class="text__review">“Yoga courses were a real discovery for me.
+                         I learned to relax and focus, which helped me to better manage my emotions and stress.
+                         I am very grateful to the teacher for his patience and professionalism.” </p>
+                </div>
+            </div>
+            <div class="slider__buttons-sec">
+                <button id="slider-prev" type="button" class="slider-button ">&#8592</button>
+                <button id="slider-next" type="button" class="slider-button">&#8594</button>
+            </div>
+        </div>
+    </section>
+    <!--  Слайдер  -->
+
+    <section class="section">
+        <div class="menyogatwo">
+            <img id="men" src="img/men.png">
+            <div id="blockmen" class="block">
+                <h2 id="mentext" class="h2">Get Happiness to Good healthy!</h2>
+                <p id="text1"class="p">There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+                <button id="but1" class="button button_color">Let’s Start ㅤ<img src="img/Strelka.png"></button>
+            </div>
+        </div>
+    </section>
+
+    <!--  Аккордеон  -->
+    <div class="accordeon-sec" id="workflow">
+        <div class="accordeon-sec__main-text">
+            <h1 class="main-text__headline">How we teach</h1>
+            <div class="main-text__sub-block">
+                <div class="sub__block-line"></div>
+                <p>OUR WORKFLOW</p>
+            </div>
+        </div>
+        <div class="accordeon-sec__main-sec" id="accordeon-sec__main-sec">
+            <div class="accordeon-el ">
+                <div class="accordeon-el__slide-down-btn ">
+                    <p class="slide-down-btn__number s">01</p>
+                    <p class="slide-down-btn__headline ">Video tutorials</p>
+                </div>
+                <div class="accordeon-el__info-sec info-hide">
+                    <p class="info-sec__paragraf">On our website you can see a large number of video tutorials on different directions in yoga.</p>
+                </div>
+            </div>
+            <div class="accordeon-el ">
+                <div class="accordeon-el__slide-down-btn">
+                    <p class="slide-down-btn__number ">02</p>
+                    <p class="slide-down-btn__headline ">group classes</p>
+                </div>
+                <div class="accordeon-el__info-sec info-hide">
+                    <p class="info-sec__paragraf">You can sign up for a group class in any direction of yoga at a convenient time for you.</p>
+                </div>
+            </div>
+            <div class="accordeon-el">
+                <div class="accordeon-el__slide-down-btn">
+                    <p class="slide-down-btn__number">03</p>
+                    <p class="slide-down-btn__headline">personal lessons with a trainer</p>
+                </div>
+                <div class="accordeon-el__info-sec info-hide">
+                    <p class="info-sec__paragraf">If you don't like group classes or it's inconvenient in time, then you can choose your own yoga coach and time.
+                    </p>
+                </div>
+            </div>
+            <div class="accordeon-el">
+                <div class="accordeon-el__slide-down-btn">
+                    <p class="slide-down-btn__number">04</p>
+                    <p class="slide-down-btn__headline">manuals and literature</p>
+                </div>
+                <div class="accordeon-el__info-sec info-hide">
+                    <p class="info-sec__paragraf">On our website you can find a large amount of literature on yoga and manuals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="instayoga">
+            <img id="people" src="img/f1.png">
+            <div class="insta">
+                <h2 id="instatext" class="insta">Follow us on Instagram</h2>
+                <p class="insta">#fTYOGA</p>
+                <button id="but5" class="button button_color">Follow</button>
+            </div>
+            <img id="people" src="img/f2.png">
+            </div>
+        </div>
+    </section>
+    <section class="section">    
+        <div class="twopeople">
+            <img id="men" src="img/f3.png">
+            <img id="men" src="img/f4.png">
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="section">
+        <img id="end" class="end" src="img/footer.png">
+    </section>
+</footer>
+</body>
+
+<script src="js/script.js"></script>
+</html>
